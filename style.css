@@ -95,3 +95,45 @@ body{
 }
 .hero-section-images 
 {display: flex;}
+.section-full-width {
+    background: white;
+    margin-bottom: 20px;
+}
+
+.section-matter {
+    width: 1240px;
+    margin: auto;
+    display: flex;
+}
+
+.section-matter-images {
+}
+
+.section-matter-text {
+    color: black;
+    padding: 40px;
+}
+
+.section-matter-text h1 {
+    font-size: 30px;
+}
+
+.section-matter-text h2 {
+    font-size: 25px;
+}
+
+.section-matter-text h3 {
+    font-size: 18px;
+}
+
+.section-matter-text h4 {
+    font-size: 14px;
+    padding-top: 18px;
+}
+
+.section-matter-text h5 {
+    font-size: 20px;
+}
+.section-matter-images {
+    display: flex;
+}
