@@ -137,3 +137,42 @@ body{
 .section-matter-images {
     display: flex;
 }
+.past-speakers-matter {
+    width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.past-speakers-full-width {
+}
+
+.past-speakers {
+    width: 1240px;
+    margin: auto;
+}
+
+.past-speakers h2 {
+    font-size: 23px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+}
+
+.per-past-item img {
+    margin-bottom: 10px;
+}
+
+.per-past-item h3 {
+    margin-bottom: 28px;
+}
+
+.per-past-item {
+    border-bottom: 5px solid black;
+}
+.past-speakers-full-width {
+    margin-bottom: 20px;
+}
+.per-past-item p {
+    padding: 53px 0;
+}
