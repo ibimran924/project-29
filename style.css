@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background: antiquewhite;
+}
 body{
     font-family: monospace;
 }
@@ -106,8 +109,7 @@ body{
     display: flex;
 }
 
-.section-matter-images {
-}
+
 
 .section-matter-text {
     color: black;
@@ -144,8 +146,7 @@ body{
     justify-content: space-between;
 }
 
-.past-speakers-full-width {
-}
+
 
 .past-speakers {
     width: 1240px;
@@ -175,4 +176,48 @@ body{
 }
 .per-past-item p {
     padding: 53px 0;
+}
+.breadcrumb-design-full-width {
+    background-color: #999999;
+}
+
+.breadcrumb-design {
+    width: 1240px;
+    margin: auto;
+    padding: 62px 0;
+    margin-bottom: 30px;
+}
+.breadcrumb-design h2 {
+    text-transform: uppercase;
+}
+.lectures-box {
+    width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lectures-box-item {
+    width: 30%;
+}
+.lectures-box-item h3 {
+    padding: 18px 0;
+}
+
+.lectures-box-item h2 {
+    padding: 20px 0;
+}
+
+.lectures-box-item {
+    border-bottom: 10px solid red;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    background: white;
+}
+.lectures-box-item img {
+    max-width: 100%;
+}
+.lectures-box-item h3, .lectures-box-item h2, .lectures-box-item p {
+    padding: 20px;
 }
